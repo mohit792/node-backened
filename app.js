@@ -4,7 +4,7 @@ const app = express();
 const hbs = require('hbs')
 app.use(express.static(path.join(__dirname , 'js'  )));
 
-
+//this is a change
 // console.log(path.join(__dirname  , '../'));
 app.set('view engine' , 'hbs');
 app.set('views' , path.join(__dirname , './templates/views'));
